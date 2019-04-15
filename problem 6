@@ -1,0 +1,12 @@
+#Karen Morales
+# 04/09/2019
+
+# 6. 100 random intergers between 1 and 1000, and wil return the average.
+
+import random
+repeat = 100
+for counter in range (repeat)
+    number=random.randrange (1,1000)
+    print (number)
+
+origList = [number]
