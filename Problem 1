@@ -1,0 +1,8 @@
+# Karen Morales
+# 04/09/2019
+
+# 1. Function that will ask for user input and convert degrees celsius to degrees Farenheit.
+
+degrees_celsius = int( input ("please enter degrees in celsius:"))
+convert = int ((degrees_celsius * 1.8) + 32)
+print (convert)
