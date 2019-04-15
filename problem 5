@@ -1,0 +1,9 @@
+# Karen Morales
+#04/09/2019
+ #5.
+origList = [1,3,3,3,6,2,3,5]
+newList = []
+for x in origList:
+    if x not in newList:
+        newList.append(x)
+print (newList)
