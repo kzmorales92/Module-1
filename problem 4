@@ -1,0 +1,10 @@
+# Karen Morales
+# 04/09/2019
+
+#4. For statement printing 10 random number from 25-50
+
+import random
+repeat = 10
+for counter in range (repeat):
+    number=random.randrange(25,50)
+    print(number)
