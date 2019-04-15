@@ -1,0 +1,11 @@
+# Karen Morales
+# 04/09/2019
+
+# 3. List of numbers, and a loop will print every other number.
+
+number_list = [12,10,32,3,66,17,42,99,20]
+range(9)
+for order in range (9):
+
+    if order % 2 == 0:
+        print ( number_list [order])
